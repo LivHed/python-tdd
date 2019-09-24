@@ -1,5 +1,3 @@
-def number_of_evens(numbers):
-    return 0
 
 def test_are_equal(actual, expected):
     """
@@ -46,7 +44,7 @@ def test_between(upper_limit, lower_limit, actual):
     
     
 #call the testing functions, make them fail and return error messages, try them one by one
-#test_are_equal(number_of_evens([1, 2, 3, 4, 5]), 2)  #we are expected to get back the number 2, becuasue there are two even numbers in there.
+
 
 #test to fail the test_not_equal
 #test_not_equal(0, 0)
